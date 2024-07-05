@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #fff;
+    color: #000;
+}
+
+header {
+    background-color: #ffd700;
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.category-boxes {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.category-box {
+    background-color: #ffd700;
+    color: #000;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+
+.category-box:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #ffd700;
+}
+
+main section {
+    display: none; /* إخفاء جميع الأقسام في البداية */
+    margin-bottom: 20px;
+}
+
+main #kids-clothes, main #women-clothes, main #men-clothes, main #shoes, main #dresses {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+main .product {
+    border: 2px solid #ffd700;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #000;
+}
+
+main .product h3 {
+    color: #ffd700;
+}
+
+button {
+    background-color: #ffd700;
+    color: #000;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #ffd700;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffd700;
+    color: #000;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
